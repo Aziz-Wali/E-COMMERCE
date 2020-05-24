@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ERSTE SCHRITTE MIT BRACKETS</title>
+        <meta name="description" content="Ein interaktiver Wegweiser für die ersten Schritte mit Brackets.">
+        <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+        </head>
+        <style>
+             body,html,* {
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu h3{
+                text-align: center;
+            }
+			.container{
+				text-align: center;
+				width: 1000px;
+				margin: auto;
+			}
+            
+            #slide{
+            background-color:crimson;
+            border: 1px solid black;
+            width:155px;
+            left: -155px;
+            height:100%;
+            position:absolute;
+           transition: all .8s linear;
+				
+				display: ;
+            }
+            #slide.activ{
+                left: 0px;
+                background-color: dodgerblue;
+				display: ;
+            }
+            #slide ul li> ul{
+                display:none;
+                text-align: center;
+            }
+            #slide ul li:hover > ul {
+                display: block;
+                text-align: center;
+                background-color: gray;
+                width: 100%;
+            }
+            #slide ul li{
+                
+                list-style: none;
+                padding:15px 0 15px 0;
+                text-align: center;
+                border-bottom: 1px solid black;
+                line-height:30px;
+              
+            }
+            .button{
+                position:absolute;
+                float: right;
+                background-color:red;
+                padding: 5px;
+               left: 150px;
+                
+            }
+            
+            
+           #ul1 >li{
+               color: aliceblue;
+               
+            }
+            #ul1 >li:last-child{
+                border-bottom:none;
+            }
+           
+            #ul1 >li:hover{
+                background-color: darkslategrey;
+                
+            }
+			 .header ul li{
+			   list-style: none;
+			   float: right;
+			   padding: 50px;
+			 top: -30px;
+				 margin-right: 50px;
+			 
+			  
+			 }
+			.header ul li a{
+				  text-decoration:none; 
+				 color:black;
+			}
+			.header .ul {
+				margin-bottom: 40px;
+			}
+		  
+		   .header{
+			   background-color:;
+			   width: 100%;
+			   height: 300px;
+			   padding-top:px;
+			   padding-bottom: 25px;
+			   background-image: url(bbb.jpg)
+		   }
+		   body{
+			   background-image: url();
+			    background-color:;
+		   }
+		    .header ul li a:hover{
+				color:red;}
+			
+			
+			
+			
+			
+			 .div {
+			   width:100%;
+			   height: 400px;
+			   float: left;
+		   }
+			
+			.div .div11{
+				margin-top:20px;
+			   background-color: aqua;
+			   margin-right:390px;
+			   float: right;
+			}
+		   .div .div1{
+			   width: 100px;
+			   height: 100px;
+			   border-radius: 50%;
+			   background-color: aliceblue;
+			   margin-top: 220px;
+			   background-color: aqua;
+			   margin-right: 350px;
+			   float: right;
+			   border: 1px solid #000;
+			   animation: rol 5s both infinite;
+		   }
+		   @keyframes rol {
+			   from{
+				   background-color: aqua;
+				   transform:translateY(0%) rotate(0deg);
+			   }to{ background-color:crimson;
+				   transform:translateY(0%)rotate(270deg);
+				   
+			   }
+			   
+		   }
+		   .div .div1:hover{
+			   background-color: firebrick;
+			   border-color: white;
+			   float: 
+		   }
+		   .div .div2{
+			   width: 100px;
+			   height: 100px;
+			   border-radius: 50%;
+			   background-color: aliceblue;
+			   margin-top: 200px;
+			    background-color: aqua;
+			   animation: ro 3s infinite;
+		   }
+		    @keyframes ro {
+			   0%{
+				   background-color: aqua;
+				   transform:translateY(0%) rotate(0deg);
+			   }25%{ background-color:crimson;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   }
+				
+			  50%{ background-color:green;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   } 
+				100%{ background-color:blue;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   }
+		   }
+		   
+		   .div .div2{
+			   float: left;
+			   margin-left: 50px;
+		   }
+		   
+
+		   .div .div12 p{
+			   float: left;
+			   color: black;
+			 margin-left:50px;
+			 margin-top: -90px;
+			   
+		   }
+		   .div .div12{
+			 background-color:gray;
+		   }
+			.myimg img{
+				
+				padding: 15px;
+				border:1px solid #357;
+				border-radius: 7px;
+				background-color: lightgray;
+				margin-top: 20px;
+				margin-left: 60px;
+				transition:all .1s linear;
+				
+			}
+			.myimg{text-align: center; margin: auto;}
+			.myimg h3 p{
+				margin-top:10px;
+				margin-left: 44px;
+				
+			}
+			#divs div{
+				
+				margin-right: 20px;
+				margin-left: 27px;
+				margin-top: 20px;
+			}
+			#divs div p{
+				line-height: 23px;
+			}
+			#n:hover{
+				background-color: white;
+			}
+			.icon i{
+				padding: 55px;
+				margin-top: 60px;
+				
+				color:black;
+			}
+			.icon i:hover{
+				color: dodgerblue;
+				
+			}
+			.icons p i{
+				color: royalblue;
+				
+			}
+			.icons p i:hover{
+				color: blue;
+				
+			}
+			.header h3{
+				text-decoration: none;
+				color:darkblue;
+				margin-top: 30px;
+				
+			}
+			.header h3:hover{
+				
+				color: red;
+			}
+			.header ul li ul:hover{
+				
+				display: block;
+			}
+			#button{
+				background-color: lightslategray;
+				padding: 5px;
+				border: 1px solid #000;
+				border-radius:5px;
+				padding-left: 12px;
+				padding-right: 12px;
+				color: whihte;
+			}
+			#button:hover{
+				background-color: red;
+			}
+			.overlay{
+				opacity: 0.8;
+				background-color:cornflowerblue;
+				height: 320px;
+			}
+			#dd{
+				font-weight: 900;
+			}
+			#bnc{
+    border:none;
+    font-size:2em;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.6);
+    margin-top:45px;
+    border-radius:10px;
+}
+			#xx{padding: 5px; background-color: dodgerblue; border: 1px solid #fff; border-radius: 5px;
+				color: #000;
+				padding-right: 30px;
+					padding-left: 30px;
+			}
+			#xx:hover{
+				background-color:lightcoral;
+				color: aliceblue;
+				border-color:red;
+			}
+			.word {
+				width: 1000px;
+				background-color: ;
+				margin-top: 70px;
+			}
+		</style>
+		<body>
+		<div class="header">
+			<div class="container">
+			
+			<h3>MOBILE SHOP</h3>
+		
+		<div  onmouseover="x()" onmouseout="y()" style="float: left; color:black;margin-top: 50px; margin-left: 60px; "><b id="id"></b></div>
+		
+		<ul>
+		<li><a href="#"><b><i class="fas fa-home"></i>  Home</b></a></li>
+			>
+		<li> <a  href="#"><b><i class="fas fa-file-alt"></i>  News</b></a></li>
+		<li><a  href="#"><b><i class="fas fa-search-plus"></i>   About</b></a>
+			</li>
+		<li><a href="#"><b><i class="far fa-address-card"></i> Contact</b></a></li>	
+		</ul>
+			<h4 style="margin-top:150px; text-align; color:">FRONTEND ENTWICKLER</h4>	
+				<p style="margin-bottom: 18px; margin-top: 10px">your web site ,you can call us between 8 am and 8 pm any time.Text is available underution-ShareA theution-ShareA Creative <br>Attribution-ShareAlike License; additional terms ution-ShareAmay apply. </p>
+				<div class="word"><h2>Word press</h2>
+					<p>WordPress (WordPress.org) is a content management<br> system (CMS) based on PHP and MySQL[4] that is usually used<br> with the MySQL or MariaDB database servers but can also    <b>Word press</b>  
+						b>the SQLite database engine.[5] Features include <br>a plugin architecture and a template system, referred to inside WordPress as Themes. WordPress 
+						 <b>Word press</b>  
+						b>the SQLite database engine.[5] Features include <br>a plugin architecture and a template system, referred to inside WordPress as Themes. WordPress  
+						
+						
+						
+						<b>Word press</b>created as blog-publishing<br> service but has evolved to support other types of web content including more traditional mailing lists and forums, media galleries, <br>membership sites, learning management systems (LMS)<br> and online stores. <b>Word press</b>used by more than 60 million websites,[6] including 33.6% of the top 10 million websites as <br>of April 2019,[7][8] WordPress is one of the most popular content management system (CMS) solutions in use.[9]<br> WordPress has also been used for other<br> application domains such as pervasive display systems (PDS).[10]
+
+WordPress was released on May 27, 2003, by its founders, Matt Mullenweg[1] and Mike Little,[11][12] as a fork of b2/cafelog. The software is released under the GPLv2 (or later) license.[13]
+
+						To function, WordPress has to be installed on a web server, either part of an Internet hosting service like WordPress.com or a computer running the software package WordPress.org in order to serve as a network host in its own right.[14] A local computer may be used for single-user testing and learning purposes.</p> </div></div></div>
+		
+			</body>
+</html>

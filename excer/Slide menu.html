@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ERSTE SCHRITTE MIT BRACKETS</title>
+        <meta name="description" content="Ein interaktiver Wegweiser für die ersten Schritte mit Brackets.">
+        <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css"/>
+        
+        <style>
+            body,html,* {
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu h3{
+                text-align: center;
+            }
+			.container{
+				text-align: center;
+				width: 1000px;
+				margin: auto;
+			}
+            
+            #slide{
+            background-color:crimson;
+            border: 1px solid black;
+            width:155px;
+            left: -155px;
+            height:100%;
+            position:absolute;
+           transition: all .8s linear;
+				
+				display: ;
+            }
+            #slide.activ{
+                left: 0px;
+                background-color: dodgerblue;
+				display: ;
+            }
+            #slide ul li> ul{
+                display:none;
+                text-align: center;
+            }
+            #slide ul li:hover > ul {
+                display: block;
+                text-align: center;
+                background-color: gray;
+                width: 100%;
+            }
+            #slide ul li{
+                
+                list-style: none;
+                padding:15px 0 15px 0;
+                text-align: center;
+                border-bottom: 1px solid black;
+                line-height:30px;
+              
+            }
+            .button{
+                position:absolute;
+                float: right;
+                background-color:red;
+                padding: 5px;
+               left: 150px;
+                
+            }
+            
+            
+           #ul1 >li{
+               color: aliceblue;
+               
+            }
+            #ul1 >li:last-child{
+                border-bottom:none;
+            }
+           
+            #ul1 >li:hover{
+                background-color: darkslategrey;
+                
+            }
+			 .header ul li{
+			   list-style: none;
+			   float: right;
+			   padding: 50px;
+			 top: -30px;
+				 margin-right: 50px;
+			 
+			  
+			 }
+			.header ul li a{
+				  text-decoration:none; 
+				 color:black;
+			}
+			.header .ul {
+				margin-bottom: 40px;
+			}
+		  
+		   .header{
+			   background-color:;
+			   width: 100%;
+			   height: 300px;
+			   padding-top:px;
+			   padding-bottom: 25px;
+			   background-image: url(bbb.jpg)
+		   }
+		   body{
+			   background-image: url();
+			    background-color:;
+		   }
+		    .header ul li a:hover{
+				color:red;}
+			
+			
+			
+			
+			
+			 .div {
+			   width:100%;
+			   height: 400px;
+			   float: left;
+		   }
+			
+			.div .div11{
+				margin-top:20px;
+			   background-color: aqua;
+			   margin-right:390px;
+			   float: right;
+			}
+		   .div .div1{
+			   width: 100px;
+			   height: 100px;
+			   border-radius: 50%;
+			   background-color: aliceblue;
+			   margin-top: 220px;
+			   background-color: aqua;
+			   margin-right: 350px;
+			   float: right;
+			   border: 1px solid #000;
+			   animation: rol 5s both infinite;
+		   }
+		   @keyframes rol {
+			   from{
+				   background-color: aqua;
+				   transform:translateY(0%) rotate(0deg);
+			   }to{ background-color:crimson;
+				   transform:translateY(0%)rotate(270deg);
+				   
+			   }
+			   
+		   }
+		   .div .div1:hover{
+			   background-color: firebrick;
+			   border-color: white;
+			   float: 
+		   }
+		   .div .div2{
+			   width: 100px;
+			   height: 100px;
+			   border-radius: 50%;
+			   background-color: aliceblue;
+			   margin-top: 200px;
+			    background-color: aqua;
+			   animation: ro 3s infinite;
+		   }
+		    @keyframes ro {
+			   0%{
+				   background-color: aqua;
+				   transform:translateY(0%) rotate(0deg);
+			   }25%{ background-color:crimson;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   }
+				
+			  50%{ background-color:green;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   } 
+				100%{ background-color:blue;
+				   transform:translateY(0%)rotate(0deg);
+				   
+			   }
+		   }
+		   
+		   .div .div2{
+			   float: left;
+			   margin-left: 50px;
+		   }
+		   
+
+		   .div .div12 p{
+			   float: left;
+			   color: black;
+			 margin-left:50px;
+			 margin-top: -90px;
+			   
+		   }
+		   .div .div12{
+			 background-color:gray;
+		   }
+			.myimg img{
+				
+				padding: 15px;
+				border:1px solid #357;
+				border-radius: 7px;
+				background-color: lightgray;
+				margin-top: 20px;
+				margin-left: 60px;
+				transition:all .1s linear;
+				
+			}
+			.myimg{text-align: center; margin: auto;}
+			.myimg h3 p{
+				margin-top:10px;
+				margin-left: 44px;
+				
+			}
+			#divs div{
+				
+				margin-right: 20px;
+				margin-left: 27px;
+				margin-top: 20px;
+			}
+			#divs div p{
+				line-height: 23px;
+			}
+			#n:hover{
+				background-color: white;
+			}
+			.icon i{
+				padding: 55px;
+				margin-top: 60px;
+				
+				color:black;
+			}
+			.icon i:hover{
+				color: dodgerblue;
+				
+			}
+			.icons p i{
+				color: royalblue;
+				
+			}
+			.icons p i:hover{
+				color: blue;
+				
+			}
+			.header h3{
+				text-decoration: none;
+				color:darkblue;
+				margin-top: 30px;
+				
+			}
+			.header h3:hover{
+				
+				color: red;
+			}
+			.header ul li ul:hover{
+				
+				display: block;
+			}
+			#button{
+				background-color: lightslategray;
+				padding: 5px;
+				border: 1px solid #000;
+				border-radius:5px;
+				padding-left: 12px;
+				padding-right: 12px;
+				color: whihte;
+			}
+			#button:hover{
+				background-color: red;
+			}
+			.overlay{
+				opacity: 0.8;
+				background-color:cornflowerblue;
+				height: 320px;
+			}
+			#dd{
+				font-weight: 900;
+			}
+			#bnc{
+    border:none;
+    font-size:2em;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.6);
+    margin-top:45px;
+    border-radius:10px;
+}
+			#xx{padding: 5px; background-color: dodgerblue; border: 1px solid #fff; border-radius: 5px;
+				color: #000;
+				padding-right: 30px;
+					padding-left: 30px;
+			}
+			#xx:hover{
+				background-color:lightcoral;
+				color: aliceblue;
+				border-color:red;
+			}
+        </style>
+    </head>
+    <body>
+			
+        <div id="slide">
+        <button class="button" onclick="show()">X</button>
+        
+        <div class="menu" id="menu">
+            
+            
+        <h3>slide menu</h3>
+            <ul>
+            <li>item1</li>
+             <li>item2  
+            <ul id="ul1">
+           <li>item11</li>
+           <li>item12</li>
+           <li>item13</li>
+           <li>item14</li>
+           </ul> 
+                </li>
+             <li>item3</li>
+             <li>item4</li>
+            </ul>
+        
+        </div>
+        </div>
+		
+		
+		<div class="header">
+			<div class="container">
+			
+			<h3>MOBILE SHOP</h3>
+		
+		<div  onmouseover="x()" onmouseout="y()" style="float: left; color:black;margin-top: 50px; margin-left: 60px; "><b id="id"></b></div>
+		
+		<ul>
+		<li><a href="#"><b><i class="fas fa-home"></i>  Home</b></a></li>
+			>
+		<li> <a  href="#"><b><i class="fas fa-file-alt"></i>  News</b></a></li>
+		<li><a  href="#"><b><i class="fas fa-search-plus"></i>   About</b></a>
+			</li>
+		<li><a href="#"><b><i class="far fa-address-card"></i> Contact</b></a></li>	
+		</ul>
+			<h4 style="margin-top:150px; text-align; color:">FRONTEND ENTWICKLER</h4>	
+				<p style="margin-bottom: 18px; margin-top: 10px">your web site ,you can call us between 8 am and 8 pm any time.Text is available underution-ShareA theution-ShareA Creative <br>Attribution-ShareAlike License; additional terms ution-ShareAmay apply. </p>
+				<button id="xx" action="<?php include'';?>"><a href="headerr.html">Click Me</a></button>
+		</div>
+			</div>
+			<br><br><br>
+		<div style="background-color: light"><div class="container">
+			<h3 style="float: left; margin-left: 50px;"> our service:</h3>
+			her is your web site ,you can call us between 8 am and 8 pm any time.Text is available under the Creative Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the</div></div>
+		<div class="myimg">
+				<div class="container">
+			<img src="C:\Users\Win10\Desktop\aziz\web\a3.jpg" id="img"  style="width: 300px; height: 200px;">
+				<img src="a4.jpg">
+			<img src="a3.jpg">
+				<img src="a6.jpg">
+			</div></div>
+			<div class="container">
+			<div id="dd"></div> <button id="button">Click me</button>	</div>
+			<div id="divs" style="text-align: "><div class ="container"><div id="n"style="width: 200px; height: 130px; background-color: lightgreen;float: right"><p>Creative Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p></div ><div style="width: 200px; height: 130px; background-color:lightsalmon; padding:px; float:right"><p>Creative sdsfe License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p></div><div style="width: 200px; height: 130px; background-color:lightslategrey; padding=6px;float:right"><p>Creative Attribution-ShareAlike License; additional terms may  the Terms of Use and Privacy Policy.</p></div></div>
+			<div class="icon"><i class="fas fa-address-book fa-5x "></i>
+			<i class="fas fa-mobile-alt fa-5x"></i>
+			<i class="fas fa-sms fa-5x "></i>
+			<i class="fas fa-desktop fa-5x "></i></div>
+				<div id="divs" style="text-align: center"><div id="n"style="width: 150px; height: 100px; background-color:lightgray;float: right"><p>Creative Attribution-ShareAlike License; additional site, you  UsePrivacy Policy.</p></div ><div style="width: 150px; height: 100px; background-color:lightgray; padding:px; float:right"><p>Creative sdsfe License; additional terms may apply. By using this site, you agree toicy.</p></div><div style="width:150px; height: 100px; background-color:lightgrey; padding=6px;float:right"><p>Creative Attribution-ShareAlike Ls may  the Terms of Use and Privacy Policy.</p></div><div style="width:150px; height: 100px; background-color:lightgray; padding=6px;float:right"><p>Creative Attribution-ShareAlike License; additional terms may  the Terms of .</p></div></div>
+
+		<div class="img" style=" margin-top:200px;margin-right:150px;margin-bottom: 100px;margin-left: 20px;"><img id="im" src="hello.jpg"><button  style="float:left; margin-top:210px ; margin-left: 20px;"id="bt">previous</button> <button id="btn" style="padding-left: 12px; position:inherit;padding-right: 12px; margin-right: -111px;">next</button></div>
+			
+		
+		
+			
+			<div class="az" style="width:; height: 400px; background-color:lightgray; opacity:; margin-top:px;">
+		
+		<div>
+		<div style="float:right; margin-right:10px; margin-top:80px; line-height: 40px;" ><h3 style="color:blue">Here are your nots !!</h3>
+			<p >Ihre Entscheidungen durch Einblickein<br> den Markt und Ihre Mitbewerber.</p>
+		<form>
+			
+		<textarea maxlength="49" id= "text" placeholder="please enter your text here!!" style="background-color: white; border: 1px solid red; border-radius: 5%; text-align:center; width: 250px; height: 140px; margin-left:px; margin-top:px"> </textarea>
+		</form><input type="submit" name="submit" style="margin-right:0px; background-color:red;color: aliceblue; margin-top:3px; float:right">
+			<span id="span" style="float:; padding-right:200px; padding-top:px;margin-bottom: 20px;">49</span>
+	</div></div>
+		<div class="icons"style="width:; margin-top:80px;float:left; margin-left: 50px;line-height:40px;"> 
+		<h3 style="color: blue">contact:</h3><p>E-mail:aziz.waly6@gmail.com</p> 
+			<p>Mobile: +49178975354</p>
+			<p> <i class="fab fa-facebook-square "></i> facebook: https//www.facebook.com/handyshop</p>
+			<p><i class="fab fa-twitter-square"></i> Twitter: https//www.twitter.com/handyshop</p>
+			<p><i  style="color: crimson;"class="fab fa-instagram "></i> Twitter: https//www.instagram.com/handyshop</p>
+		
+		</div>
+	</div>
+		
+		<div id="bnc">hello</div>
+		</div>
+		
+		
+	<script>
+		var im =document.getElementById('im');
+		var btn =document.getElementById('btn');
+		var ar =["hello.jpg","h2.jpg","h1.png"];
+		var i =0;
+		btn.onclick=function bb(){
+			im.setAttribute('src',ar[i]);
+			i++;
+			if(i>2){
+				i=0;
+			}
+		}
+		
+      
+       
+        function show (){
+            document.getElementById("slide").classList.toggle('activ');
+           
+        };
+           
+        setInterval(function(){
+			var date = new Date(),
+		 hours= date.getHours(),
+		 min= date.getMinutes(),
+		 seconds=date.getSeconds();
+			
+			
+			
+			if(seconds<10){
+				seconds= '0'+seconds;
+			}
+			if(min<10){
+				min= '0'+min;
+			}
+		if(hours<10){
+				hours= '0'+hours;
+			}
+		document.getElementById("id").innerHTML=hours+':'+min+':'+seconds;},500);
+		function x(){document.getElementById("id").style.color='red';}
+		function y(){document.getElementById("id").style.color='black';}
+		var text =document.getElementById("text");
+		var span =document.getElementById("span");
+		text.onkeyup=function(){
+			"use strict";
+			
+			span.textContent = 49 - this.value.length;
+			
+			if( span.textContent==0){
+					 span.style.color="red";
+				prevent
+				}else{
+					span.style.color="black";
+				}
+		};
+        var myimg = document.getElementById('img'),
+                arrimg = ['a3.jpg','a4.jpg','a5.jpg','a6.jpg'];
+           
+            function aziz(myimg,arrimg){
+                'use strict';
+                 
+                setInterval(function(){var randomly =Math.floor(Math.random()*arrimg.length);
+                    myimg.src=arrimg[randomly];
+                },2000)
+            };
+            aziz(myimg,arrimg);
+		
+		
+	  var m = 'hello my name is aziz wali i am from syria 19.12.2019 hello my name is aziz wali i am from syria 19.12.2019 her is your web site ,you can call us between 8 ',
+            y1 = document.getElementById('dd'),
+		    button= document.getElementById('button'),
+            i= 0;
+        button.onclick = function () {
+            'use strict';
+            var a = setInterval(function () {
+                y1.textContent += m[i];
+                i++;
+                if (i === m.length) {
+                    clearInterval(a);
+
+                }
+            }, 100);
+
+
+        }
+        window.onload=()=>{
+    Touch.rmvWtr();
+    var bnc,str='',cnt=0,str2='';
+    var obj;
+ obj=document.getElementsByTagName("style");
+    bnc=document.getElementById("bnc");
+    for(let x of bnc.innerHTML){
+    str+=`<span class='bounce'>${x}</span>`;
+    str2+=`.bounce:nth-child(${++cnt}){animation-delay:${cnt}s;color:${Touch.randomRGB()}}`;
+    }
+    obj[0].innerHTML+=str2;
+    bnc.innerHTML=str;
+}
+        </script>
+    </body>
+</html>
